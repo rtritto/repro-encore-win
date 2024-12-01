@@ -1,28 +1,23 @@
-# template-yarn-berry
-
-### 📚 Template stack
-- **Yarn Berry**
-- **TypeScript**
-- **ESLint**
-- **pkgroll**
-
-<a href="https://github.com/tandpfun/skill-icons">
-  <img align="center" src="https://skillicons.dev/icons?i=yarn,ts&theme=dark" />
-</a>
+# repro-encore-win
 
 ### ⬇️ Clone
 ```sh
-git clone https://github.com/rtritto/template-yarn-berry.git
+git clone https://github.com/rtritto/repro-encore-win.git
+cd repro-encore-win
+git checkout missing-env
 ```
+
 
 ### ⚙️ Install
 ```sh
-yarn add template-yarn-berry
+yarn
 ```
 
 ### 📖 Usage
-```ts
-import { <FUNCTION> } from 'template-yarn-berry'
-
-<FUNCTION>()
+```sh
+yarn start
+```
+OR
+```sh
+node ./start.mjs
 ```

@@ -29,6 +29,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@types/node", "npm:22.10.1"],\
           ["@yarnpkg/sdks", "npm:3.2.0"],\
+          ["encore.dev", "npm:1.44.6"],\
           ["eslint", "virtual:32feb68d33e964a0a3cf548ed795270590df6511d2db937048c52d7aaa589f84d20f2164fc3673ccf93b688e94adef1227553086ef44c0abee130d66875e58d0#npm:9.16.0"],\
           ["eslint-plugin-unicorn", "virtual:32feb68d33e964a0a3cf548ed795270590df6511d2db937048c52d7aaa589f84d20f2164fc3673ccf93b688e94adef1227553086ef44c0abee130d66875e58d0#npm:56.0.1"],\
           ["pkgroll", "virtual:32feb68d33e964a0a3cf548ed795270590df6511d2db937048c52d7aaa589f84d20f2164fc3673ccf93b688e94adef1227553086ef44c0abee130d66875e58d0#npm:2.5.1"],\
@@ -1856,6 +1857,15 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["encoding", "npm:0.1.13"],\
           ["iconv-lite", "npm:0.6.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["encore.dev", [\
+      ["npm:1.44.6", {\
+        "packageLocation": "../../../Users/Computer/AppData/Local/Yarn/Berry/cache/encore.dev-npm-1.44.6-3d86b75c4d-10c0.zip/node_modules/encore.dev/",\
+        "packageDependencies": [\
+          ["encore.dev", "npm:1.44.6"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3841,6 +3851,7 @@ const RAW_RUNTIME_STATE =
           ["template-yarn-berry", "workspace:."],\
           ["@types/node", "npm:22.10.1"],\
           ["@yarnpkg/sdks", "npm:3.2.0"],\
+          ["encore.dev", "npm:1.44.6"],\
           ["eslint", "virtual:32feb68d33e964a0a3cf548ed795270590df6511d2db937048c52d7aaa589f84d20f2164fc3673ccf93b688e94adef1227553086ef44c0abee130d66875e58d0#npm:9.16.0"],\
           ["eslint-plugin-unicorn", "virtual:32feb68d33e964a0a3cf548ed795270590df6511d2db937048c52d7aaa589f84d20f2164fc3673ccf93b688e94adef1227553086ef44c0abee130d66875e58d0#npm:56.0.1"],\
           ["pkgroll", "virtual:32feb68d33e964a0a3cf548ed795270590df6511d2db937048c52d7aaa589f84d20f2164fc3673ccf93b688e94adef1227553086ef44c0abee130d66875e58d0#npm:2.5.1"],\

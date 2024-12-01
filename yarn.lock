@@ -1425,6 +1425,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"encore.dev@npm:^1.44.6":
+  version: 1.44.6
+  resolution: "encore.dev@npm:1.44.6"
+  checksum: 10c0/e40f0651acae2c9101367e5cd96460bce5019a679a4271d5ebe3794fb6b049cfa096635386712da08e69a3c19de4dee309d262d4db3580a711b327ac522a8dee
+  languageName: node
+  linkType: hard
+
 "end-of-stream@npm:^1.1.0":
   version: 1.4.4
   resolution: "end-of-stream@npm:1.4.4"
@@ -3290,6 +3297,7 @@ __metadata:
   dependencies:
     "@types/node": "npm:^22.10.1"
     "@yarnpkg/sdks": "npm:^3.2.0"
+    encore.dev: "npm:^1.44.6"
     eslint: "npm:^9.16.0"
     eslint-plugin-unicorn: "npm:^56.0.1"
     pkgroll: "npm:^2.5.1"
