@@ -1,0 +1,44 @@
+{
+  "name": "template-yarn-berry",
+  "version": "0.0.1",
+  "license": "MIT",
+  "packageManager": "yarn@4.5.3",
+  "type": "module",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.mts",
+  "exports": {
+    "import": "./dist/index.mjs",
+    "types": "./dist/index.d.mts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rtritto/template-yarn-berry.git"
+  },
+  "homepage": "https://github.com/rtritto/template-yarn-berry#readme",
+  "bugs": {
+    "url": "https://github.com/rtritto/template-yarn-berry/issues"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "tsx ./start.ts",
+    "lint": "eslint src/**/*.{ts,tsx} *.ts",
+    "build": "pkgroll",
+    "prepublishOnly": "yarn build",
+    "od": "yarn outdated"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "@yarnpkg/sdks": "^3.2.0",
+    "eslint": "^9.16.0",
+    "eslint-plugin-unicorn": "^56.0.1",
+    "pkgroll": "^2.5.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.16.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
